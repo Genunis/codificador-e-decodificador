@@ -1,4 +1,4 @@
-body{
+*body{
     background: rgba(243, 245, 252, 1);
     font-family: 'Inter', sans-serif;
 }
@@ -154,7 +154,7 @@ body{
     padding-bottom: 30px;
 }
 
-@media (max-width: 300px)
+@media (max-width: 500px)
 {
     #icone{
         position: absolute;
@@ -186,6 +186,7 @@ body{
     #descriptografar{
         width: 90%;
         height: 67px;
+        margin-botton:50%;
     }
     #botoes{
         display:block; 
