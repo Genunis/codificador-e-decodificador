@@ -154,7 +154,7 @@
     padding-bottom: 30px;
 }
 
-@media (max-width: 500px)
+@media (max-width: 900px)
 {
     #icone{
         position: absolute;
