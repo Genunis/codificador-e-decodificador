@@ -1,4 +1,4 @@
-*{
+body{
     background: rgba(243, 245, 252, 1);
     font-family: 'Inter', sans-serif;
 }
@@ -51,6 +51,9 @@
     flex-grow: 0;
     color:  rgba(255, 255, 255, 1);
 }
+#btc{
+    padding-right: 5%;
+}
 #descriptografar{
     box-sizing: border-box;
     flex-direction: row;
@@ -68,7 +71,7 @@
     flex-grow: 0;
 }
 #botoes{
-    display: inline-block;
+    display:inline-flex;
 }
 #titu-pro{
     background-color: #FFFFFF;
@@ -106,13 +109,12 @@
 }
 #conjunto{
     bottom: 10px;
-    position: fixed;
     left: 15%;
+    position: absolute;
     
 }
 #copiar{
     width: 300px;
-    height: 58px;
     background-color: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
@@ -150,4 +152,87 @@
     border-radius: 32px;
     padding-top: 30px; 
     padding-bottom: 30px;
+}
+
+@media (max-width: 500px)
+{
+    #icone{
+        position: absolute;
+        left: 10%;
+        right: 37.43%;
+        top: 0%;
+        bottom: 0%;
+        font-size: 68px;
+        font-style: normal;
+        color: rgba(10, 56, 113, 1);
+    }
+    #imagem{
+        display: none;
+    }
+    #codi{
+        width: 90%;
+        height: 48px;
+        left: 16px;
+        top: 152px;
+    }
+    #btc, #btdc{
+    padding-right: 5%;
+    padding-top:2%
+    }
+    #criptografar{
+        width: 90%;
+        height: 67px;
+    }
+    #descriptografar{
+        width: 90%;
+        height: 67px;
+    }
+    #botoes{
+        display:block; 
+        
+    }
+    #conjunto{
+        position: initial;        
+        margin-top:-480px;
+    }
+    #exibir{
+        position: inherit;
+        margin-top:400px;
+        display:flex;
+    }
+    #dig-pro{
+        line-height: 150%;
+        margin-left:-300px;
+      margin-top:50px;        
+    }
+    #titu-pro{
+        margin-top:-10px;   
+    }
+    #exibir{;
+        margin-top:450px;
+        position:initial;
+        width: 100%;
+    }
+    #copiar{
+        visibility: visible;
+        margin-top:650px;
+        
+    }
+    #criptografado{
+        position: absolute;
+        width: 90%;
+        height: auto;
+        left:5%;
+        top: 400px;
+    }
+    #copiar{
+    width: 300px;
+    height:50px;
+    margin: 0px;
+
+}
+    #texto{
+    width: 100%;
+    font-size: 24px;    
+}
 }
